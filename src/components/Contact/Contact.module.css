@@ -3,8 +3,6 @@
   padding: 20px;
   width: 330px;
   border: 2px solid black;
-  border-radius: 10px;
-  background-color: rgba(155, 228, 255, 0.5);
 }
 .information {
   display: flex;
