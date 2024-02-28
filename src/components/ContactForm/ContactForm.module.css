@@ -34,10 +34,6 @@
   border-radius: 20px;
   background-color: gainsboro;
   cursor: pointer;
-  transition: 450ms;
-}
-.btn:is(:hover, :focus) {
-  background-color: rgba(0, 104, 115, 0.5);
 }
 
 .title {
