@@ -1,7 +1,6 @@
 import { ContactList } from "./components/ContactList/ContactList";
 import { SearchBar } from "./components/SearchBar/SearchBar";
 import { ConctactForm } from "./components/ContactForm/ContactForm";
-import css from "./App.module.css";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 
@@ -17,8 +16,8 @@ export const App = () => {
   }, [dispatch]);
   const isLoading = useSelector(getLoading);
   return (
-    <div className={css.app}>
-      <h1 className={css.title}>Phonebook</h1>
+    <div>
+      <h1>Phonebook</h1>
       <ConctactForm />
       <SearchBar />
       <ContactList />
